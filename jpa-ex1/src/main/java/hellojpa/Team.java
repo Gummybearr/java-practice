@@ -1,6 +1,8 @@
 package hellojpa;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 import java.util.ArrayList;
@@ -10,11 +12,10 @@ import java.util.List;
 @Data
 public class Team {
     @Id @GeneratedValue
-    @Column(name="TEAM_ID")
+    @Column(name = "TEAM_ID")
     private Long id;
     private String name;
 
-    @OneToMany
-    @JoinColumn(name="TEAM_ID")
+    @OneToMany(mappedBy = "team")
     private List<Member> members = new ArrayList<>();
 }
