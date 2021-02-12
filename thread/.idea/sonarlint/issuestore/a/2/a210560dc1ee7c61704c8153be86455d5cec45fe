@@ -1,0 +1,11 @@
+
+0
+java:S1220""Move this file to a named package.
+h
+java:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ð‹Ù¼ùÿÿÿÿ8¨ÕÂ»ù.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(¶àÄñþÿÿÿÿ8üØÇ»ù.
+J	java:S108")Either remove or fill this block of code.(ð‹Ù¼ùÿÿÿÿ8¨ÕÂ»ù.
+F
+java:S2140")Use "java.util.Random.nextInt()" instead.(ÞØ¼Ã8ÚÓÆ»ù.
+e
+java:S2276"CReplace the call to "Thread.sleep(...)" with a call to "wait(...)".(å·Àãþÿÿÿÿ8¥“Í»ù.

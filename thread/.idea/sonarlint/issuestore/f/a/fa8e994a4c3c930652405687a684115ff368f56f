@@ -1,0 +1,15 @@
+
+0
+java:S1220""Move this file to a named package.
+W
+java:S1161":Add the "@Override" annotation above this method signature(“–ýþ8‡®ª¹ù.
+Z	java:S106
+"9Replace this use of System.out or System.err by a logger.(Ì™Á¤ÿÿÿÿÿ8Æß¯¹ù.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Å’¥Îÿÿÿÿÿ8íÇ®¹ù.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(Î­ªž8‡®ª¹ù.
+i	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(âÖ¸¦8÷ñ§¹ù.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(èÂûëùÿÿÿÿ8ùˆ«¹ù.
+c
+java:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8ýíÇ¹ù.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Ê‹éºøÿÿÿÿ8ýíÇ¹ù.
+]	java:S125"<This block of commented-out lines of code should be removed.(¥Ýº©ýÿÿÿÿ8ýíÇ¹ù.

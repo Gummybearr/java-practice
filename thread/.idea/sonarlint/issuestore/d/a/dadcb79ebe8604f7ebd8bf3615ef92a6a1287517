@@ -1,7 +1,23 @@
 
-Z	java:S106	"9Replace this use of System.out or System.err by a logger.(„îª øÿÿÿÿ8ó³‰šù.
-U	java:S106"9Replace this use of System.out or System.err by a logger.(¨Ô…‹8ØÈ™ù.
-U	java:S106"9Replace this use of System.out or System.err by a logger.(¨Ô…‹8ÿİ¼˜ù.
-U	java:S106"9Replace this use of System.out or System.err by a logger.(¨Ô…‹8ÆÜ÷™ù.
+W
+java:S1161":Add the "@Override" annotation above this method signature(“–ış8±ßç¸ù.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ª¾ì·8±ßç¸ù.
+J	java:S108
+")Either remove or fill this block of code.(‚¦¡ûûÿÿÿÿ8³ïï¸ù.
 0
 java:S1220""Move this file to a named package.
+h
+java:S2142
+"FEither re-interrupt this method or rethrow the "InterruptedException".(‚¦¡ûûÿÿÿÿ8 ™ï¸ù.
+B
+java:S3457"%String contains no format specifiers.(ª¾ì·8òò¸ù.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(¶ûùÄúÿÿÿÿ8ŞÅğ¸ù.
+X
+java:S3252	"6Use static access with "java.lang.Thread" for "sleep".(ß¾Œæüÿÿÿÿ8 ™ï¸ù.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(¤Ëÿ•ûÿÿÿÿ8¥’ë¸ù.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(É‡©Í8Ş„é¸ù.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(×ïï§8ºÈê¸ù.
+B
+java:S3457"%String contains no format specifiers.(×ïï§8½§ò¸ù.
+W
+java:S1161":Add the "@Override" annotation above this method signature(“–ış8ºÈê¸ù.

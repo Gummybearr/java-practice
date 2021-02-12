@@ -1,0 +1,21 @@
+
+h
+java:S2184"FCast one of the operands of this multiplication operation to a "long".(şÁ„¼üÿÿÿÿ8ëÒªºù.
+0
+java:S1220""Move this file to a named package.
+W
+java:S1161":Add the "@Override" annotation above this method signature(“–ış8ëÒªºù.
+T	java:S106!"9Replace this use of System.out or System.err by a logger.(ğÄÇJ8ŒÔ±ºù.
+n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÄËÄÛüÿÿÿÿ8ëÒªºù.
+h
+java:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(°˜Ç­şÿÿÿÿ8ëÒªºù.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(°˜Ç­şÿÿÿÿ8ëÒªºù.
+K
+java:S2140
+")Use "java.util.Random.nextInt()" instead.(ËÙúÿÿÿÿ8Ç›¶ºù.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ğ‡Ş‚8á™¹ºù.
+b
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(¦¶Ó²8ëÒªºù.
+h
+java:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(‚¦¡ûûÿÿÿÿ8û°Üºù.
+J	java:S108")Either remove or fill this block of code.(‚¦¡ûûÿÿÿÿ8û°Üºù.
