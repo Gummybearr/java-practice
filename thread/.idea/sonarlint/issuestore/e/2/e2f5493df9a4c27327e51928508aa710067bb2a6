@@ -1,50 +1,50 @@
 
->
-java:S11701"!Make this final field static too.(Èõòê8ÖÖÇ¼ù.
-o
-java:S11928"MDefine a constant instead of duplicating this literal " is waiting." 3 times.(š‡»Íøÿÿÿÿ8åí¢½ù.
-h
-java:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(„§Ãûúÿÿÿÿ8—•Í¼ù.
+R
+java:S2446Q"0"notify" may not wake up the appropriate thread.(óÄ£¶øÿÿÿÿ8·ß ½ù.
 D
 java:S2189'""Add an end condition to this loop.(˜ïˆÿÿÿÿÿ8š×¼ù.
 e
-java:S2276;"CReplace the call to "Thread.sleep(...)" with a call to "wait(...)".(€­íÜüÿÿÿÿ8µµ›½ù.
-h
-java:S2142K"FEither re-interrupt this method or rethrow the "InterruptedException".(‚¦¡ûûÿÿÿÿ8Äºˆ½ù.
+java:S2276X"CReplace the call to "Thread.sleep(...)" with a call to "wait(...)".(€­íÜüÿÿÿÿ8åí¢½ù.
 h
 java:S1192"FDefine a constant instead of duplicating this literal "donut" 3 times.(ÿ¹Äôûÿÿÿÿ8¥çÛ¼ù.
+J	java:S108Y")Either remove or fill this block of code.(‚¦¡ûûÿÿÿÿ8åí¢½ù.
+c
+java:S2142*"FEither re-interrupt this method or rethrow the "InterruptedException".(»ÛÏ8š×¼ù.
+Z	java:S1068"9Replace this use of System.out or System.err by a logger.(š‡»Íøÿÿÿÿ8û¬š½ù.
+E	java:S108*")Either remove or fill this block of code.(»ÛÏ8š×¼ù.
+o
+java:S11928"MDefine a constant instead of duplicating this literal " is waiting." 3 times.(š‡»Íøÿÿÿÿ8åí¢½ù.
+0
+java:S1220""Move this file to a named package.
+Z	java:S106@"9Replace this use of System.out or System.err by a logger.(¾õÕûÿÿÿÿ8ÖÖÇ¼ù.
+e
+java:S2276J"CReplace the call to "Thread.sleep(...)" with a call to "wait(...)".(€­íÜüÿÿÿÿ8Äºˆ½ù.
+o	java:S1161"SRename this field "MAX_FOOD" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Èõòê8ÖÖÇ¼ù.
+Z	java:S106G"9Replace this use of System.out or System.err by a logger.(š‡»Íøÿÿÿÿ8Äºˆ½ù.
+>
+java:S11701"!Make this final field static too.(Èõòê8ÖÖÇ¼ù.
+J	java:S108")Either remove or fill this block of code.(„§Ãûúÿÿÿÿ8—•Í¼ù.
+[
+java:S1155F">Use isEmpty() to check whether the collection is empty or not.(¦‰Êî8Äºˆ½ù.
+J	java:S108K")Either remove or fill this block of code.(‚¦¡ûûÿÿÿÿ8Äºˆ½ù.
+Z	java:S106V"9Replace this use of System.out or System.err by a logger.(š‡»Íøÿÿÿÿ8åí¢½ù.
+D
+java:S2189""Add an end condition to this loop.(˜ïˆÿÿÿÿÿ8—•Í¼ù.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ıûíıúÿÿÿÿ8½Ğ¼ù.
+h
+java:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(„§Ãûúÿÿÿÿ8—•Í¼ù.
+K
+java:S2140(")Use "java.util.Random.nextInt()" instead.( üîÁùÿÿÿÿ8š×¼ù.
+V
+java:S2274:":Remove this call to "wait" or move it into a "while" loop.(ç£ŠM8µµ›½ù.
+h
+java:S2142K"FEither re-interrupt this method or rethrow the "InterruptedException".(‚¦¡ûûÿÿÿÿ8Äºˆ½ù.
 J	java:S108<")Either remove or fill this block of code.(‚¦¡ûûÿÿÿÿ8µµ›½ù.
 h
 java:S2142<"FEither re-interrupt this method or rethrow the "InterruptedException".(‚¦¡ûûÿÿÿÿ8µµ›½ù.
 e
-java:S2276J"CReplace the call to "Thread.sleep(...)" with a call to "wait(...)".(€­íÜüÿÿÿÿ8Äºˆ½ù.
-h
-java:S2142Y"FEither re-interrupt this method or rethrow the "InterruptedException".(‚¦¡ûûÿÿÿÿ8åí¢½ù.
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(ıûíıúÿÿÿÿ8½Ğ¼ù.
-J	java:S108K")Either remove or fill this block of code.(‚¦¡ûûÿÿÿÿ8Äºˆ½ù.
-e
-java:S2276X"CReplace the call to "Thread.sleep(...)" with a call to "wait(...)".(€­íÜüÿÿÿÿ8åí¢½ù.
-[
-java:S1155F">Use isEmpty() to check whether the collection is empty or not.(¦‰Êî8Äºˆ½ù.
-D
-java:S2189""Add an end condition to this loop.(˜ïˆÿÿÿÿÿ8—•Í¼ù.
-K
-java:S2140(")Use "java.util.Random.nextInt()" instead.( üîÁùÿÿÿÿ8š×¼ù.
-o	java:S1161"SRename this field "MAX_FOOD" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Èõòê8ÖÖÇ¼ù.
-Z	java:S106G"9Replace this use of System.out or System.err by a logger.(š‡»Íøÿÿÿÿ8Äºˆ½ù.
-R
-java:S2446Q"0"notify" may not wake up the appropriate thread.(óÄ£¶øÿÿÿÿ8·ß ½ù.
-Z	java:S1068"9Replace this use of System.out or System.err by a logger.(š‡»Íøÿÿÿÿ8û¬š½ù.
-V
-java:S2274:":Remove this call to "wait" or move it into a "while" loop.(ç£ŠM8µµ›½ù.
+java:S2276;"CReplace the call to "Thread.sleep(...)" with a call to "wait(...)".(€­íÜüÿÿÿÿ8µµ›½ù.
 R
 java:S2446?"0"notify" may not wake up the appropriate thread.(óÄ£¶øÿÿÿÿ8Ñ×“½ù.
-Z	java:S106@"9Replace this use of System.out or System.err by a logger.(¾õÕûÿÿÿÿ8ÖÖÇ¼ù.
-c
-java:S2142*"FEither re-interrupt this method or rethrow the "InterruptedException".(»ÛÏ8š×¼ù.
-Z	java:S106V"9Replace this use of System.out or System.err by a logger.(š‡»Íøÿÿÿÿ8åí¢½ù.
-0
-java:S1220""Move this file to a named package.
-J	java:S108Y")Either remove or fill this block of code.(‚¦¡ûûÿÿÿÿ8åí¢½ù.
-E	java:S108*")Either remove or fill this block of code.(»ÛÏ8š×¼ù.
-J	java:S108")Either remove or fill this block of code.(„§Ãûúÿÿÿÿ8—•Í¼ù.
+h
+java:S2142Y"FEither re-interrupt this method or rethrow the "InterruptedException".(‚¦¡ûûÿÿÿÿ8åí¢½ù.

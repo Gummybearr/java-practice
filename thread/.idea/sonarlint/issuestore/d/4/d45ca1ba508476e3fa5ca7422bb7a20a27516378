@@ -1,24 +1,24 @@
 
-h
-java:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(‚¦¡ûûÿÿÿÿ8˜±ì¹ù.
-J	java:S108")Either remove or fill this block of code.(‚¦¡ûûÿÿÿÿ8˜±ì¹ù.
-J	java:S108!")Either remove or fill this block of code.(‚¦¡ûûÿÿÿÿ8áÑâ¹ù.
-Q
-java:S1874"/Remove this use of "suspend"; it is deprecated.(¬ş€Şùÿÿÿÿ8˜±ì¹ù.
-J
-java:S1874".Remove this use of "resume"; it is deprecated.(ÆØöz8˜±ì¹ù.
 D
 java:S2189""Add an end condition to this loop.(˜ïˆÿÿÿÿÿ8áÑâ¹ù.
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(›Óğ°şÿÿÿÿ8áÑâ¹ù.
-h
-java:S2142!"FEither re-interrupt this method or rethrow the "InterruptedException".(‚¦¡ûûÿÿÿÿ8áÑâ¹ù.
-0
-java:S1220""Move this file to a named package.
-Q
-java:S1874"/Remove this use of "suspend"; it is deprecated.(Ô¼íşüÿÿÿÿ8˜±ì¹ù.
-N
-java:S1874",Remove this use of "stop"; it is deprecated.(ÎùÔùÿÿÿÿ8˜±ì¹ù.
+J	java:S108!")Either remove or fill this block of code.(‚¦¡ûûÿÿÿÿ8áÑâ¹ù.
 N
 java:S1874",Remove this use of "stop"; it is deprecated.(‚ŠÏûÿÿÿÿ8˜±ì¹ù.
+J	java:S108")Either remove or fill this block of code.(‚¦¡ûûÿÿÿÿ8˜±ì¹ù.
+h
+java:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(‚¦¡ûûÿÿÿÿ8˜±ì¹ù.
+Q
+java:S1874"/Remove this use of "suspend"; it is deprecated.(¬ş€Şùÿÿÿÿ8˜±ì¹ù.
+0
+java:S1220""Move this file to a named package.
+h
+java:S2142!"FEither re-interrupt this method or rethrow the "InterruptedException".(‚¦¡ûûÿÿÿÿ8áÑâ¹ù.
+N
+java:S1874",Remove this use of "stop"; it is deprecated.(ÎùÔùÿÿÿÿ8˜±ì¹ù.
+J
+java:S1874".Remove this use of "resume"; it is deprecated.(ÆØöz8˜±ì¹ù.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(›Óğ°şÿÿÿÿ8áÑâ¹ù.
+Q
+java:S1874"/Remove this use of "suspend"; it is deprecated.(Ô¼íşüÿÿÿÿ8˜±ì¹ù.
 I
 java:S1874",Remove this use of "stop"; it is deprecated.(úÂö…8˜±ì¹ù.

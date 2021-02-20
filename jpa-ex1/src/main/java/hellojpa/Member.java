@@ -1,10 +1,11 @@
 package hellojpa;
 
-import lombok.AllArgsConstructor;
 import lombok.Data;
-import lombok.NoArgsConstructor;
 
-import javax.persistence.*;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
 
 @Entity
 @Data
@@ -13,8 +14,4 @@ public class Member {
     @Column(name = "MEMBER_ID")
     private Long id;
     private String userName;
-
-    @OneToOne
-    @JoinColumn(name="LOCKER_ID")
-    private Locker locker;
 }
