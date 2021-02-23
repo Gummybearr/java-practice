@@ -3,8 +3,8 @@ package hellojpa;
 import lombok.Data;
 import javax.persistence.Entity;
 
-@Data
 @Entity
+@Data
 public class Movie extends Item{
     private String director;
     private String actor;

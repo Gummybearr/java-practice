@@ -1,0 +1,20 @@
+version: '3.1'
+
+services:
+  db:
+    image: mysql:latest
+    volumes:
+      - /root/fraud-detection-demo/db_data:/var/lib/mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: qnsekd1!
+      MYSQL_DATABASE: iot
+      MYSQL_USER: iot
+      MYSQL_PASSWORD: iot
+    ports:
+      - 3306:3306
+
+volumes:
+  db_data: {}
+
+# mysql -h 127.0.0.1 -P 3306 -u root -p iot

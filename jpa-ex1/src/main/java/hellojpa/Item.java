@@ -3,19 +3,14 @@ package hellojpa;
 import lombok.Data;
 import javax.persistence.*;
 
-@Data
 @Entity
-@Table
-@Inheritance(strategy = InheritanceType.SINGLE_TABLE)
+@Data
+@Inheritance(strategy = InheritanceType.TABLE_PER_CLASS)
 @DiscriminatorColumn
-public abstract class Item {
+public abstract class Item extends BaseEntity{
     @Id @GeneratedValue
     private Long id;
 
     private String name;
     private Long price;
-//    private Long stockQuantity;
-
-//    @ManyToMany(mappedBy = "items")
-//    private List<Category> categoryList = new ArrayList<>();
 }
