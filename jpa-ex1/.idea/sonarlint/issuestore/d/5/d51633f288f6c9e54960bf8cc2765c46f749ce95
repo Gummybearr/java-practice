@@ -1,8 +1,8 @@
 
-H
-java:S2160
-"+Override the "equals" method in this class.(£ûøÓ8¹ìĞü.
-L
-java:S1068"*Remove this unused "artist" private field.(†ğÖŠıÿÿÿÿ8¹ìĞü.
 J
 java:S1128"(Remove this unused import 'lombok.Data'.(÷í«ÿÿÿÿÿ8¹ìĞü.
+H
+java:S2160
+"+Override the "equals" method in this class.(£ûøÓ8½ü«ÿ.
+L
+java:S1068"*Remove this unused "artist" private field.(†ğÖŠıÿÿÿÿ8½ü«ÿ.

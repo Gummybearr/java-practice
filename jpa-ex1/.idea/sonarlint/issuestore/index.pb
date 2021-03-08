@@ -25,3 +25,9 @@ R
 "src/main/java/hellojpa/Parent.java,4/4/44edf2283231ef941ed7d9f231ed01b376d49e57
 V
 &src/main/java/hellojpa/BaseEntity.java,4/1/41dcd6411ea17d5fdb1caaec18e1b93eafa53cdb
+R
+"src/main/java/hellojpa/Period.java,a/0/a0b3136a164e8bbec40efc2281f122de4175ab86
+S
+#src/main/java/hellojpa/Address.java,e/d/ed0ba483127da0c1ee616e1633db429d81762845
+U
+%src/main/java/hellojpa/MemberDto.java,f/4/f4c57d65edd0b92c3f7e15f3f1786c21352f12aa

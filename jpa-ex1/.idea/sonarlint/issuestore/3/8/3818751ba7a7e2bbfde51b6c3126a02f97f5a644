@@ -1,6 +1,6 @@
 
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(…ï¼“ÿÿÿÿÿ8àÄ¨áù.
-Z	java:S106$"9Replace this use of System.out or System.err by a logger.(Æì° úÿÿÿÿ8àÄ¨áù.
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(ÿİ™×úÿÿÿÿ8ØùÖü.
-M
-java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8¿š©áù.
+Z	java:S106."9Replace this use of System.out or System.err by a logger.(Æì° úÿÿÿÿ8àÄ¨áù.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(…ï¼“ÿÿÿÿÿ8àÄ¨áù.
+U	java:S106%"9Replace this use of System.out or System.err by a logger.(¾—³š8Äì ÿ.
+c
+java:S1128"GRemove this unused import 'javax.persistence.criteria.CriteriaBuilder'.(É¿F8¶Œ£ÿ.

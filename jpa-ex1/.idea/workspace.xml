@@ -5,24 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c01956d-326f-439d-8943-46ada0e88f58" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/hellojpa/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Child.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Parent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hellojpa/MemberDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Period.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpql-ex1/src/main/java/jpql/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpql-ex1/src/main/java/jpql/JpqlMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpql-ex1/src/main/java/jpql/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpql-ex1/src/main/java/jpql/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpql-ex1/src/main/java/jpql/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpql-ex1/src/main/java/jpql/Team.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jpql-ex1/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/8/3818751ba7a7e2bbfde51b6c3126a02f97f5a644" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/8/3818751ba7a7e2bbfde51b6c3126a02f97f5a644" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/0/40e311ccbf52f9df9ec4629134747136c70691af" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/0/40e311ccbf52f9df9ec4629134747136c70691af" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/7/4746643b525b7683f7bd87c9f4f12112f1a6193f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/7/978a85b417eb31c6aef1282acb782910acfded2c" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/7/978a85b417eb31c6aef1282acb782910acfded2c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/1/41dcd6411ea17d5fdb1caaec18e1b93eafa53cdb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/1/41dcd6411ea17d5fdb1caaec18e1b93eafa53cdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/44edf2283231ef941ed7d9f231ed01b376d49e57" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/44edf2283231ef941ed7d9f231ed01b376d49e57" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/f/bfbac6fbffe19ced8136bfd2d23bf11518635622" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/f/bfbac6fbffe19ced8136bfd2d23bf11518635622" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/5/d51633f288f6c9e54960bf8cc2765c46f749ce95" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/5/d51633f288f6c9e54960bf8cc2765c46f749ce95" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/6/e60dde03ff86b25571f014da0e723a6f243bf1d0" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/6/e60dde03ff86b25571f014da0e723a6f243bf1d0" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/d/fd68fd8c0388b07c61445afa503c8ec018eab4c0" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/d/fd68fd8c0388b07c61445afa503c8ec018eab4c0" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/Album.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Album.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Item.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/JpaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/JpaMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/Parent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Parent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../jpa-example.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/../jpa-example.mv.db" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +65,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/kt/fraud-detection-demo/webapp" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -123,7 +128,13 @@
       <workItem from="1614002982884" duration="74000" />
       <workItem from="1614003348174" duration="7490000" />
       <workItem from="1614039405657" duration="48000" />
-      <workItem from="1614084150074" duration="3683000" />
+      <workItem from="1614084150074" duration="7921000" />
+      <workItem from="1614130958679" duration="2065000" />
+      <workItem from="1614519187926" duration="10507000" />
+      <workItem from="1614605841285" duration="5349000" />
+      <workItem from="1614613327893" duration="97000" />
+      <workItem from="1614700782943" duration="3141000" />
+      <workItem from="1614729699822" duration="112000" />
     </task>
     <servers />
   </component>

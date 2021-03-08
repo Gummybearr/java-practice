@@ -1,23 +1,23 @@
 package hellojpa;
 
 import lombok.Data;
+import lombok.Getter;
+import lombok.ToString;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.OneToMany;
+import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
 
 @Entity
-@Data
+@Getter
+@ToString
 public class Parent {
     @Id @GeneratedValue
     private Long id;
 
     private String name;
 
-    @OneToMany(mappedBy = "parent")
+    @OneToMany(mappedBy = "parent", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<Child> childList = new ArrayList<>();
 
     public void addChild(Child child){

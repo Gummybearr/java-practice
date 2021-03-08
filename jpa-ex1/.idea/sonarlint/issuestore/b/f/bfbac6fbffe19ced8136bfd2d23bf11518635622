@@ -1,9 +1,9 @@
 
 M
-java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8£¢¢…ú.
-M
 java:S1128	"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8£¢¢…ú.
 Q
 java:S1128"6Remove this unused import 'lombok.AllArgsConstructor'.(´œ¾öùÿÿÿÿ
 K
 java:S1128"5Remove this unused import 'lombok.NoArgsConstructor'.(¸¨›
+M
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8£¢¢…ú.

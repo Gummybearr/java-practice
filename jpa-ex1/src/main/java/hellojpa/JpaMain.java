@@ -4,6 +4,7 @@ import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.EntityTransaction;
 import javax.persistence.Persistence;
+import javax.persistence.criteria.CriteriaBuilder;
 import java.util.List;
 
 public class JpaMain {
@@ -15,25 +16,25 @@ public class JpaMain {
         tx.begin();
         System.out.println("begin");
         try{
-
             Member member = new Member();
-            member.setUserName("hello");
+            member.setUserName("member1");
+            member.setHomeAddress(new Address("a", "b", "c"));
+
+            member.getFavoriteFoods().add("치킨");
+            member.getFavoriteFoods().add("피자");
+            member.getFavoriteFoods().add("보쌈");
+
+            member.getAddressHistory().add(new Address("o1", "o1", "o1"));
+            member.getAddressHistory().add(new Address("o2", "o2", "o2"));
+            member.getAddressHistory().add(new Address("o3", "o3", "o3"));
 
             em.persist(member);
 
             em.flush();
             em.clear();
 
-            Member refMember = em.getReference(Member.class, member.getId());
-            System.out.println(refMember.getClass());
-            System.out.println(refMember.getUserName());
-
-            Member findMember = em.find(Member.class, member.getId());
-            System.out.println(findMember.getClass());
-
-            em.close();
-
-            System.out.println(findMember.getUserName());
+            List<MemberDto> resultList = em.createQuery("select new hellojpa.MemberDto(m.userName, m.id) from Member m", MemberDto.class).getResultList();
+            System.out.println(resultList);
 
             tx.commit();
         } catch(Exception e){
