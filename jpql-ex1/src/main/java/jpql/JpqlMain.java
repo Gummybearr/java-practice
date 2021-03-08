@@ -16,26 +16,37 @@ public class JpqlMain {
         tx.begin();
 
         try{
-            Team team = new Team();
-            team.setName("TeamA");
-            em.persist(team);
+            Team teamA = new Team();
+            teamA.setName("팀A");
+            em.persist(teamA);
+
+            Team teamB = new Team();
+            teamB.setName("팀B");
+            em.persist(teamB);
 
             Member member1 = new Member();
-            member1.setUsername("관리자1");
-            member1.setTeam(team);
+            member1.setUsername("회원1");
+            member1.setTeam(teamA);
             em.persist(member1);
 
             Member member2 = new Member();
-            member2.setUsername("관리자2");
-            member2.setTeam(team);
+            member2.setUsername("회원2");
+            member2.setTeam(teamA);
             em.persist(member2);
+
+            Member member3 = new Member();
+            member3.setUsername("회원3");
+            member3.setTeam(teamB);
+            em.persist(member3);
 
             em.flush();
             em.clear();
 
-            String query = "select t.members from Team t";
-            Collection result = em.createQuery(query, Collection.class).getResultList();
-            System.out.println(result);
+            String query = "select m from Member m where m.team = : team";
+            Member findMember = em.createQuery(query, Member.class)
+                    .setParameter("team", teamB)
+                    .getSingleResult();
+            System.out.println(findMember);
 
             tx.commit();
         } catch(Exception e){

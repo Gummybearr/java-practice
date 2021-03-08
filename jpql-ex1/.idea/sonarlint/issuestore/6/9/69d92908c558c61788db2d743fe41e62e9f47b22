@@ -1,8 +1,8 @@
 
-Z	java:S106&"9Replace this use of System.out or System.err by a logger.(®ıáëûÿÿÿÿ8Œ†Ûí€/
-M
-java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8¨ó‹ï€/
-L
-java:S3740%"/Provide the parametrized type for this generic.(·‚‹×8öÔ†ï€/
+Z	java:S1061"9Replace this use of System.out or System.err by a logger.(éü¬öÿÿÿÿÿ8¯îè—/
 ]
 java:S1128"@Remove this unused import 'org.hibernate.dialect.MySQL5Dialect'.(´Àş¢8Œ†Ûí€/
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8¦„é—/
+S
+java:S1128"1Remove this unused import 'java.util.Collection'.(¹ÉĞšùÿÿÿÿ8¼ñ±“/
