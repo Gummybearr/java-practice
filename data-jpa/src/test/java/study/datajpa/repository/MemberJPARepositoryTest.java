@@ -29,7 +29,7 @@ class MemberJPARepositoryTest {
     }
 
     @Test
-    void basicCRUD(){
+    void basicCRUD() {
         Member member1 = new Member("member1");
         Member member2 = new Member("member2");
         memberJPARepository.save(member1);
@@ -49,7 +49,7 @@ class MemberJPARepositoryTest {
     }
 
     @Test
-    void findByUsernameAgeGreaterThen(){
+    void findByUsernameAgeGreaterThen() {
         Member m1 = new Member("AAA", 10, null);
         Member m2 = new Member("AAA", 20, null);
         memberJPARepository.save(m1);
@@ -60,6 +60,17 @@ class MemberJPARepositoryTest {
         assertThat(result.get(0).getUsername()).isEqualTo("AAA");
         assertThat(result.get(0).getAge()).isEqualTo(20);
         assertThat(result.size()).isEqualTo(1);
+    }
+
+    @Test
+    public void testNamedQuery() {
+        Member m1 = new Member("AAA", 10, null);
+        Member m2 = new Member("AAA", 20, null);
+        memberJPARepository.save(m1);
+        memberJPARepository.save(m2);
+
+        List<Member> member = memberJPARepository.findByUsername("AAA");
+        assertThat(member.get(0)).isEqualTo(m1);
     }
 
 }
